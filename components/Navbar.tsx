@@ -29,10 +29,10 @@ const Navbar: React.FC<NavbarProps> = ({ onSelectBranch }) => {
     <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-rose-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
-          <div className="flex-shrink-0 flex items-center gap-2">
+          <a href="#hero" className="flex-shrink-0 flex items-center gap-2 hover:opacity-80 transition-opacity">
             <img src="/assets/logo.jpg" alt="Shanail Logo" className="w-10 h-10 object-contain rounded-full" />
             <span className="text-2xl font-serif tracking-widest uppercase">Shanail.id</span>
-          </div>
+          </a>
           
           <div className="hidden md:flex items-center space-x-8">
             <a href="#hero" className="text-sm font-medium hover:text-rose-gold transition">HOME</a>

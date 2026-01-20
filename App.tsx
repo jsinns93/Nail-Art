@@ -14,7 +14,7 @@ const Footer: React.FC = () => (
     <div className="max-w-7xl mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
         <div className="space-y-6">
-          <h3 className="text-2xl font-serif tracking-widest uppercase">Shanail.co</h3>
+          <h3 className="text-2xl font-serif tracking-widest uppercase">Shanail.id</h3>
           <p className="text-gray-400 leading-relaxed">
             Crafting elegance and confidence through the art of fine nails, lash, brow, and hair. Reusable luxury for the modern individual.
           </p>
@@ -72,7 +72,7 @@ const Footer: React.FC = () => (
       </div>
       
       <div className="pt-10 border-t border-gray-800 text-center text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Shanail.co. All rights reserved.
+        &copy; {new Date().getFullYear()} Shanail.id. All rights reserved.
       </div>
     </div>
   </footer>

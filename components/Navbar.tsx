@@ -30,8 +30,8 @@ const Navbar: React.FC<NavbarProps> = ({ onSelectBranch }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center gap-2">
-            <Sparkles className="text-rose-gold w-6 h-6" />
-            <span className="text-2xl font-serif tracking-widest uppercase">Shanail.co</span>
+            <img src="/assets/logo.jpg" alt="Shanail Logo" className="w-10 h-10 object-contain rounded-full" />
+            <span className="text-2xl font-serif tracking-widest uppercase">Shanail.id</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

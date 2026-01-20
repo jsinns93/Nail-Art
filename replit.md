@@ -1,4 +1,4 @@
-# Shanail.co - Luxury Nail Art & Beauty
+# Shanail.id - Luxury Beauty Salon
 
 ## Overview
 A luxury beauty website built with React, TypeScript, and Vite. Features services for Nails, Lash, Brow, and Hair across multiple salon locations.

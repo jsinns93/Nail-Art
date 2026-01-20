@@ -68,7 +68,13 @@ const Services: React.FC<ServicesProps> = ({ selectedBranch, onSelectBranch }) =
               </div>
               
               <div className="mt-auto space-y-4 relative z-10">
-                <button className="w-full bg-white border-2 border-rose-gold text-rose-gold py-3 rounded-xl text-sm font-bold uppercase tracking-widest flex items-center justify-center gap-2 group-hover:bg-rose-gold group-hover:text-white transition-all">
+                <button 
+                  onClick={() => {
+                    onSelectBranch(branch);
+                    window.dispatchEvent(new CustomEvent('show-terms-popup'));
+                  }}
+                  className="w-full bg-white border-2 border-rose-gold text-rose-gold py-3 rounded-xl text-sm font-bold uppercase tracking-widest flex items-center justify-center gap-2 group-hover:bg-rose-gold group-hover:text-white transition-all"
+                >
                   View Pricelist <ChevronRight className="w-4 h-4" />
                 </button>
               </div>

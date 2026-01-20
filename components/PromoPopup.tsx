@@ -24,10 +24,10 @@ const PromoPopup: React.FC = () => {
       <div className="relative w-full max-w-md bg-white rounded-2xl overflow-hidden shadow-2xl animate-in fade-in zoom-in duration-300">
         <button 
           onClick={() => setIsOpen(false)}
-          className="absolute top-4 right-4 z-10 p-2 bg-black/20 hover:bg-black/40 text-white rounded-full transition-colors backdrop-blur-md"
+          className="absolute top-4 right-4 z-10 p-2 bg-white text-rose-gold hover:bg-rose-gold hover:text-white rounded-full transition-all shadow-xl border border-rose-100"
           aria-label="Close notification"
         >
-          <X className="w-5 h-5" />
+          <X className="w-6 h-6" />
         </button>
         <div className="relative aspect-[9/16] w-full">
           <img 

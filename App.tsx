@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
+import PromoPopup from './components/PromoPopup';
 import { Instagram, Phone } from 'lucide-react';
 import { Branch } from './types';
 
@@ -70,6 +71,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen">
+      <PromoPopup />
       <Navbar onSelectBranch={handleSelectBranch} />
       <main>
         <Hero />

@@ -1,0 +1,7 @@
+{
+  "name": "Shanail.co - Luxury Nail Art & Beauty",
+  "description": "A high-end nail salon and beauty boutique featuring custom press-on nails, luxury gel services, and an AI-powered nail design consultant.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

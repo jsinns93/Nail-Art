@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
-import ProductGrid from './components/ProductGrid';
+import Gallery from './components/Gallery';
 import { Instagram, Phone } from 'lucide-react';
 import { Branch } from './types';
 
@@ -23,7 +23,7 @@ const Footer: React.FC = () => (
           <ul className="space-y-4 text-gray-400">
             <li><a href="#hero" className="hover:text-white transition">Home</a></li>
             <li><a href="#services" className="hover:text-white transition">Services</a></li>
-            <li><a href="#shop" className="hover:text-white transition">Shop</a></li>
+            <li><a href="#gallery" className="hover:text-white transition">Gallery</a></li>
           </ul>
         </div>
 
@@ -86,7 +86,7 @@ const App: React.FC = () => {
         </section>
 
         <Services selectedBranch={activeBranch} onSelectBranch={handleSelectBranch} />
-        <ProductGrid />
+        <Gallery />
 
         {/* Brand Philosophy */}
         <section className="py-24 bg-white overflow-hidden">

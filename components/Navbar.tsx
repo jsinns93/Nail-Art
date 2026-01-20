@@ -62,7 +62,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSelectBranch }) => {
               )}
             </div>
 
-            <a href="#gallery" className="text-sm font-medium hover:text-rose-gold transition uppercase">Gallery</a>
+            <a href="#gallery" className="text-sm font-medium hover:text-rose-gold transition uppercase">OUR WORK</a>
             <a href="#services" className="bg-rose-gold text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-rose-700 transition">
               BOOK NOW
             </a>
@@ -95,7 +95,7 @@ const Navbar: React.FC<NavbarProps> = ({ onSelectBranch }) => {
               ))}
             </div>
 
-            <a href="#gallery" className="block px-3 py-4 text-center text-base font-medium" onClick={() => setIsOpen(false)}>GALLERY</a>
+            <a href="#gallery" className="block px-3 py-4 text-center text-base font-medium" onClick={() => setIsOpen(false)}>OUR WORK</a>
             <a href="#services" className="w-full block bg-rose-gold text-white px-6 py-4 rounded-xl text-base font-semibold text-center" onClick={() => setIsOpen(false)}>
               BOOK NOW
             </a>

@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
             <span className="italic">Natural Beauty</span>
           </h1>
           <p className="text-lg text-gray-700 mb-10 max-w-md leading-relaxed">
-            Luxury handmade press-on nails and bespoke salon services designed to make you shine every single day.
+            Luxury handmade press-on nails, bespoke lash, brow, and hair services designed to make you shine every single day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="#shop" className="bg-rose-gold text-white px-8 py-4 rounded-full font-semibold text-center hover:bg-rose-700 transition shadow-lg shadow-rose-200">

@@ -12,6 +12,23 @@ const COMMON_PRICELIST: PriceCategory[] = [
     ]
   },
   {
+    category: 'Lash & Brow',
+    items: [
+      { service: 'Lash Lift & Tint', price: 'IDR 350k' },
+      { service: 'Classic Lash Extension', price: 'IDR 450k' },
+      { service: 'Brow Lamination', price: 'IDR 300k' },
+      { service: 'Brow Shaping', price: 'IDR 150k' },
+    ]
+  },
+  {
+    category: 'Hair Styling',
+    items: [
+      { service: 'Wash & Blow Out', price: 'IDR 150k' },
+      { service: 'Luxury Hair Treatment', price: 'IDR 450k' },
+      { service: 'Hair Coloring', price: 'From IDR 800k' },
+    ]
+  },
+  {
     category: 'Gel & Art',
     items: [
       { service: 'Gel Polish (Solid)', price: 'IDR 180k' },

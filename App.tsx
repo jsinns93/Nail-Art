@@ -15,7 +15,7 @@ const Footer: React.FC = () => (
         <div className="space-y-6">
           <h3 className="text-2xl font-serif tracking-widest uppercase">Shanail.co</h3>
           <p className="text-gray-400 leading-relaxed">
-            Crafting elegance and confidence through the art of fine nails. Reusable luxury for the modern individual.
+            Crafting elegance and confidence through the art of fine nails, lash, brow, and hair. Reusable luxury for the modern individual.
           </p>
           <div className="flex space-x-4">
             <a href="#" className="hover:text-rose-gold transition"><Instagram /></a>
@@ -105,10 +105,10 @@ const App: React.FC = () => {
                 />
               </div>
               <div className="lg:w-1/2">
-                <h2 className="text-5xl font-serif mb-8 leading-tight">Handcrafted Excellence in <span className="italic">Every Tip</span></h2>
+                <h2 className="text-5xl font-serif mb-8 leading-tight">Handcrafted Excellence in <span className="italic">Every Service</span></h2>
                 <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
                   <p>
-                    At Shanail.co, we believe your nails are the ultimate accessory. Each press-on set is hand-painted by our master artists using professional salon-grade soft gel.
+                    At Shanail.co, we believe your beauty is your ultimate accessory. From hand-painted press-on nails to expert lash, brow, and hair styling, our master artists bring excellence to every detail.
                   </p>
                   <p>
                     Our mission is to provide you with a salon-quality manicure in under 10 minutes—without compromising on health, style, or quality. Reusable up to 5 times, eco-conscious, and uniquely yours.

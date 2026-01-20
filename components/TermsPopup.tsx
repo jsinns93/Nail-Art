@@ -11,7 +11,7 @@ const TermsPopup: React.FC = () => {
       if (servicesSection) {
         const rect = servicesSection.getBoundingClientRect();
         // Show popup when services section is in view
-        if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+        if (rect.top <= window.innerHeight * 0.5 && rect.bottom >= 0) {
           const hasShown = sessionStorage.getItem('terms_popup_shown');
           if (!hasShown) {
             setIsOpen(true);

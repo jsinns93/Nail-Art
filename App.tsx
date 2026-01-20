@@ -53,6 +53,21 @@ const Footer: React.FC = () => (
             </a>
           </div>
         </div>
+
+        <div>
+          <h4 className="font-semibold text-lg mb-6">Feedback</h4>
+          <p className="text-gray-400 text-sm mb-6 leading-relaxed">
+            Suggestions? Comments? Let us know! We'd love to hear from you!
+          </p>
+          <a 
+            href="https://wa.me/62895351406765" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-rose-gold text-white px-6 py-3 rounded-xl font-bold text-sm hover:bg-rose-700 transition shadow-lg shadow-rose-900/20"
+          >
+            <Phone className="w-4 h-4" /> SEND FEEDBACK
+          </a>
+        </div>
       </div>
       
       <div className="pt-10 border-t border-gray-800 text-center text-gray-500 text-sm">

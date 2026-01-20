@@ -61,7 +61,6 @@ const Navbar: React.FC<NavbarProps> = ({ onSelectBranch }) => {
             </div>
 
             <a href="#shop" className="text-sm font-medium hover:text-rose-gold transition">SHOP</a>
-            <a href="#consultant" className="text-sm font-medium hover:text-rose-gold transition">AI STYLIST</a>
             <button className="bg-rose-gold text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-rose-700 transition">
               BOOK NOW
             </button>
@@ -95,7 +94,6 @@ const Navbar: React.FC<NavbarProps> = ({ onSelectBranch }) => {
             </div>
 
             <a href="#shop" className="block px-3 py-4 text-center text-base font-medium" onClick={() => setIsOpen(false)}>SHOP</a>
-            <a href="#consultant" className="block px-3 py-4 text-center text-base font-medium" onClick={() => setIsOpen(false)}>AI STYLIST</a>
             <button className="w-full bg-rose-gold text-white px-6 py-4 rounded-xl text-base font-semibold">
               BOOK NOW
             </button>

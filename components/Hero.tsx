@@ -27,9 +27,6 @@ const Hero: React.FC = () => {
             <a href="#shop" className="bg-rose-gold text-white px-8 py-4 rounded-full font-semibold text-center hover:bg-rose-700 transition shadow-lg shadow-rose-200">
               SHOP COLLECTION
             </a>
-            <a href="#consultant" className="bg-white border-2 border-rose-gold text-rose-gold px-8 py-4 rounded-full font-semibold text-center hover:bg-rose-50 transition">
-              TRY AI STYLIST
-            </a>
           </div>
         </div>
       </div>

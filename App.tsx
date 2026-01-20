@@ -30,7 +30,6 @@ const Footer: React.FC = () => (
             <li><a href="#hero" className="hover:text-white transition">Home</a></li>
             <li><a href="#services" className="hover:text-white transition">Services</a></li>
             <li><a href="#shop" className="hover:text-white transition">Shop</a></li>
-            <li><a href="#consultant" className="hover:text-white transition">AI Stylist</a></li>
           </ul>
         </div>
 
@@ -90,7 +89,6 @@ const App: React.FC = () => {
 
         <Services selectedBranch={activeBranch} onSelectBranch={handleSelectBranch} />
         <ProductGrid />
-        <NailConsultant />
 
         {/* Brand Philosophy */}
         <section className="py-24 bg-white overflow-hidden">

@@ -1,25 +1,23 @@
 # Shanail.co - Luxury Nail Art & Beauty
 
 ## Overview
-A luxury nail art and beauty website built with React, TypeScript, and Vite. Features an AI Stylist powered by Google Gemini that suggests nail art designs based on outfits or moods.
+A luxury beauty website built with React, TypeScript, and Vite. Features services for Nails, Lash, Brow, and Hair across multiple salon locations.
 
 ## Tech Stack
 - Frontend: React 19, TypeScript, Vite
 - Styling: Tailwind CSS (via CDN)
-- AI: Google Gemini API (@google/genai)
 - Icons: Lucide React
 
 ## Project Structure
 ```
 /
-├── App.tsx           # Main application component
+├── App.tsx           # Main application component & Footer
 ├── index.html        # HTML entry point
 ├── index.tsx         # React entry point
 ├── vite.config.ts    # Vite configuration
-├── components/       # React components
-├── services/         # API services (Gemini)
+├── components/       # React components (Hero, Navbar, Services, etc.)
 ├── types.ts          # TypeScript types
-└── constants.tsx     # App constants
+└── constants.tsx     # App constants & Location data
 ```
 
 ## Development

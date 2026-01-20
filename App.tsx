@@ -4,8 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import ProductGrid from './components/ProductGrid';
-import NailConsultant from './components/NailConsultant';
-import { Instagram, Facebook, Twitter, Mail, MapPin, Phone } from 'lucide-react';
+import { Instagram, Phone } from 'lucide-react';
 import { Branch } from './types';
 
 const Footer: React.FC = () => (
@@ -18,9 +17,7 @@ const Footer: React.FC = () => (
             Crafting elegance and confidence through the art of fine nails, lash, brow, and hair. Reusable luxury for the modern individual.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-rose-gold transition"><Instagram /></a>
-            <a href="#" className="hover:text-rose-gold transition"><Facebook /></a>
-            <a href="#" className="hover:text-rose-gold transition"><Twitter /></a>
+            <a href="https://www.instagram.com/shanail.id/" target="_blank" rel="noopener noreferrer" className="hover:text-rose-gold transition"><Instagram /></a>
           </div>
         </div>
         
@@ -35,23 +32,27 @@ const Footer: React.FC = () => (
 
         <div>
           <h4 className="font-semibold text-lg mb-6">Contact Us</h4>
-          <ul className="space-y-4 text-gray-400">
-            <li className="flex items-center gap-3"><MapPin className="w-5 h-5" /> 123 Beauty Lane, Chic City</li>
-            <li className="flex items-center gap-3"><Phone className="w-5 h-5" /> +1 (555) 0123-4567</li>
-            <li className="flex items-center gap-3"><Mail className="w-5 h-5" /> hello@shanail.co</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-semibold text-lg mb-6">Stay Updated</h4>
-          <p className="text-gray-400 mb-4">Subscribe to get design inspo and new product alerts.</p>
-          <div className="flex gap-2">
-            <input 
-              type="email" 
-              placeholder="Your email" 
-              className="bg-gray-800 border-none rounded-lg px-4 py-2 flex-grow focus:ring-1 focus:ring-rose-gold"
-            />
-            <button className="bg-rose-gold px-4 py-2 rounded-lg font-bold">JOIN</button>
+          <div className="flex space-x-6">
+            <a 
+              href="https://www.instagram.com/shanail.id/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="group flex flex-col items-center gap-2 text-gray-400 hover:text-rose-gold transition"
+            >
+              <div className="p-3 rounded-full bg-gray-800 group-hover:bg-rose-gold/10 transition">
+                <Instagram className="w-6 h-6" />
+              </div>
+              <span className="text-xs font-bold uppercase tracking-widest">Instagram</span>
+            </a>
+            <a 
+              href="#services" 
+              className="group flex flex-col items-center gap-2 text-gray-400 hover:text-rose-gold transition"
+            >
+              <div className="p-3 rounded-full bg-gray-800 group-hover:bg-rose-gold/10 transition">
+                <Phone className="w-6 h-6" />
+              </div>
+              <span className="text-xs font-bold uppercase tracking-widest">WhatsApp</span>
+            </a>
           </div>
         </div>
       </div>

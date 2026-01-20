@@ -48,6 +48,23 @@ const Services: React.FC<ServicesProps> = ({ selectedBranch, onSelectBranch }) =
                   <Clock className="w-4 h-4 text-rose-gold/70" />
                   <span className="text-xs font-medium">{branch.workingHours}</span>
                 </div>
+                {branch.addresses && (
+                  <div className="pt-2 space-y-2">
+                    {branch.addresses.map((addr, idx) => (
+                      <a 
+                        key={idx}
+                        href={addr.mapUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-start gap-2 text-xs text-gray-400 hover:text-rose-gold transition group/addr"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <MapPin className="w-3 h-3 mt-0.5 text-rose-gold/50 group-hover/addr:text-rose-gold" />
+                        <span className="underline decoration-dotted underline-offset-2">{addr.label}: {addr.address}</span>
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
               
               <div className="mt-auto space-y-4 relative z-10">

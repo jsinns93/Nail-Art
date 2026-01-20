@@ -16,6 +16,7 @@ export interface Branch {
   workingHours: string;
   pricelist: PriceCategory[];
   terms: string[];
+  addresses?: { label: string; address: string; mapUrl: string }[];
 }
 
 export interface Product {

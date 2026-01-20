@@ -54,7 +54,19 @@ export const BRANCHES: Branch[] = [
     contact: '+62 858-8223-8527',
     workingHours: 'Mon - Sun 09.00 AM - 18.00 PM',
     pricelist: COMMON_PRICELIST,
-    terms: COMMON_TERMS
+    terms: COMMON_TERMS,
+    addresses: [
+      { 
+        label: 'Shanail Antasari', 
+        address: 'Jl. Prapanca Raya 37B, Jakarta Selatan',
+        mapUrl: 'https://www.google.com/maps/search/?api=1&query=Shanail+Antasari+Jl.+Prapanca+Raya+37B+Jakarta+Selatan'
+      },
+      { 
+        label: 'Shanail Bintaro', 
+        address: 'Fresh Market Emerald Bintaro RA/15',
+        mapUrl: 'https://www.google.com/maps/search/?api=1&query=Shanail+Bintaro+Fresh+Market+Emerald+Bintaro'
+      }
+    ]
   },
   {
     id: 'b2',
@@ -62,7 +74,14 @@ export const BRANCHES: Branch[] = [
     contact: '+62 859-4316-4910',
     workingHours: 'Mon - Sun 09.00 AM - 18.00 PM',
     pricelist: COMMON_PRICELIST,
-    terms: [...COMMON_TERMS, 'Special weekend surcharges may apply.']
+    terms: [...COMMON_TERMS, 'Special weekend surcharges may apply.'],
+    addresses: [
+      { 
+        label: 'Shanail Bekasi', 
+        address: 'Grand Galaxy Bekasi RSA 3 No. 9',
+        mapUrl: 'https://www.google.com/maps/search/?api=1&query=Shanail+Bekasi+Grand+Galaxy+Bekasi+RSA+3+No.+9'
+      }
+    ]
   },
   {
     id: 'b3',
@@ -70,7 +89,14 @@ export const BRANCHES: Branch[] = [
     contact: '+62 856-0376-7411',
     workingHours: 'Mon - Sun 09.00 AM - 18.00 PM',
     pricelist: COMMON_PRICELIST,
-    terms: COMMON_TERMS
+    terms: COMMON_TERMS,
+    addresses: [
+      { 
+        label: 'Shanail Bandung', 
+        address: 'Ruko 23 Paskal Blok B.51 Bandung',
+        mapUrl: 'https://www.google.com/maps/search/?api=1&query=Shanail+Bandung+Ruko+23+Paskal+Blok+B.51'
+      }
+    ]
   }
 ];
 

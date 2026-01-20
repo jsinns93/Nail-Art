@@ -16,6 +16,8 @@ const Navbar: React.FC<NavbarProps> = ({ onSelectBranch }) => {
     onSelectBranch(branch);
     setShowServicesDropdown(false);
     setIsOpen(false);
+    // Dispatch event to show terms popup
+    window.dispatchEvent(new CustomEvent('show-terms-popup'));
     // Scroll to services section
     const element = document.getElementById('services');
     if (element) {

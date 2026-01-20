@@ -16,9 +16,6 @@ const Footer: React.FC = () => (
           <p className="text-gray-400 leading-relaxed">
             Crafting elegance and confidence through the art of fine nails, lash, brow, and hair. Reusable luxury for the modern individual.
           </p>
-          <div className="flex space-x-4">
-            <a href="https://www.instagram.com/shanail.id/" target="_blank" rel="noopener noreferrer" className="hover:text-rose-gold transition"><Instagram /></a>
-          </div>
         </div>
         
         <div>
